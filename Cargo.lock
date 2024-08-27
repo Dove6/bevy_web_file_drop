@@ -429,8 +429,7 @@ dependencies = [
 [[package]]
 name = "bevy_blob_loader"
 version = "0.0.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61a8daa1c266ee726272ddb1efa10b80a33d8b15aa1f87f7d2546fdaa2b15b13"
+source = "git+https://github.com/Dove6/bevy_blob_loader.git?branch=fix/bevy-0.14-asset-reader-trait#849ea4e7e6a49de3d3b0f8f419ab60b8cf9e5dcf"
 dependencies = [
  "base64 0.22.1",
  "bevy",
